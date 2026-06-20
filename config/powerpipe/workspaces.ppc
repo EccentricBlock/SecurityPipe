@@ -1,0 +1,9 @@
+workspace "default" {
+  output       = "pretty"
+  progress            = true
+  update_check = true
+  log_level     = "warn"
+  memory_max_mb = 2048
+  port         = 9033
+  listen        = "network"
+}
